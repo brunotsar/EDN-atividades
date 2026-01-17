@@ -1,3 +1,4 @@
 __psycache__/
+.venv/
 *.py[cod]
 *$py.class

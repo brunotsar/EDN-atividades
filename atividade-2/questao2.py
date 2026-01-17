@@ -18,8 +18,8 @@ class Produto:
 
 def calcular_desconto(produto):
     desconto = produto.valor * produto.desconto / 100
-    preco_final = produto.valor - desconto
-    return round(preco_final, 2)
+    precoFinal = produto.valor - desconto
+    return round(precoFinal, 2)
 
 
 camiseta = Produto("Camiseta", 50.00, 20)

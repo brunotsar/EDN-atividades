@@ -1,3 +1,11 @@
+"""
+4- Calculadora de Preço Total
+* Desenvolva um programa que calcula o preço total de uma compra. Use as seguintes informações:
+
+* Nome do produto: "Cadeira Infantil"
+"""
+
+
 class Produto:
     def __init__(self, nome, preco):
         self.nome = nome

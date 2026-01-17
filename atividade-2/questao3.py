@@ -15,17 +15,17 @@ def limpar_tela():
     os.system("cls" if os.name == "nt" else "clear")
 
 
-nota1 = "vazio"
-nota2 = "vazio"
-nota3 = "vazio"
+nota1 = None
+nota2 = None
+nota3 = None
 
-while nota1 == "vazio" or nota2 == "vazio" or nota3 == "vazio":
+while nota1 is None or nota2 is None or nota3 is None:
     try:
-        if nota1 == "vazio":
+        if nota1 is None:
             nota1 = float(input("Digite a primeira nota: "))
-        if nota2 == "vazio":
+        if nota2 is None:
             nota2 = float(input("Digite a segunda nota: "))
-        if nota3 == "vazio":
+        if nota3 is None:
             nota3 = float(input("Digite a terceira nota: "))
     except ValueError:
         input(
