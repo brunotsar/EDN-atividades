@@ -2,3 +2,5 @@ __psycache__/
 .venv/
 *.py[cod]
 *$py.class
+dados.csv
+*.json
